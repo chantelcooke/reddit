@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'topics/index'
+  get 'topics/show'
+  get 'topics/new'
+  get 'topics/edit'
 # route is going to be the http request and do crud actions in the browser
 # lead somewhere in the controller
 # combination of the url and http request
